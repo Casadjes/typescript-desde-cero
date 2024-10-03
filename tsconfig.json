@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Compila a ES6
+    "module": "commonjs", // Usa el sistema de módulos de Node.js
+    "outDir": "./dist", // Coloca los archivos compilados en 'dist'
+    "strict": true, // Habilita la verificación estricta de tipos
+    "esModuleInterop": true // Interoperabilidad con módulos ES
+  },
+  "include": ["src"], // Incluye archivos en la carpeta 'src'
+  "exclude": ["node_modules"] // Excluye la carpeta 'node_modules'
+}
